@@ -1,0 +1,7 @@
+node_modules/
+backend/db.json
+backend/db.json.tmp
+dist/
+.env
+.DS_Store
+Thumbs.db

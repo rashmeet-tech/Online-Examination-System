@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": "admin",
+      "name": "Admin Teacher",
+      "role": "admin",
+      "pw": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9"
+    },
+    {
+      "id": "S101",
+      "name": "Student 1",
+      "role": "student",
+      "pw": "703b0a3d6ad75b649a28adde7d83c6251da457549263bc7ff45ec709b0a8448b"
+    },
+    {
+      "id": "S102",
+      "name": "Student 2",
+      "role": "student",
+      "pw": "703b0a3d6ad75b649a28adde7d83c6251da457549263bc7ff45ec709b0a8448b"
+    },
+    {
+      "id": "S103",
+      "name": "Student 3",
+      "role": "student",
+      "pw": "703b0a3d6ad75b649a28adde7d83c6251da457549263bc7ff45ec709b0a8448b"
+    },
+    {
+      "id": "S104",
+      "name": "Student 4",
+      "role": "student",
+      "pw": "703b0a3d6ad75b649a28adde7d83c6251da457549263bc7ff45ec709b0a8448b"
+    },
+    {
+      "id": "S105",
+      "name": "Student 5",
+      "role": "student",
+      "pw": "703b0a3d6ad75b649a28adde7d83c6251da457549263bc7ff45ec709b0a8448b"
+    }
+  ],
+  "exams": [
+    {
+      "id": 1,
+      "title": "Operating System Mid-Semester",
+      "subject": "Operating Systems",
+      "duration": 10,
+      "pass": 40,
+      "questions": [
+        {
+          "q": "What is a process?",
+          "o": [
+            "Program in execution",
+            "A file on disk",
+            "A compiler",
+            "A cable"
+          ],
+          "a": 0,
+          "m": 2
+        },
+        {
+          "q": "Which scheduling is non-preemptive?",
+          "o": [
+            "Round Robin",
+            "FCFS",
+            "SRTF",
+            "Multilevel feedback"
+          ],
+          "a": 1,
+          "m": 2
+        },
+        {
+          "q": "Which page replacement has the lowest faults?",
+          "o": [
+            "FIFO",
+            "LRU",
+            "Optimal",
+            "Random"
+          ],
+          "a": 2,
+          "m": 2
+        },
+        {
+          "q": "Banker's algorithm is used for?",
+          "o": [
+            "Deadlock avoidance",
+            "Paging",
+            "Compilation",
+            "Booting"
+          ],
+          "a": 0,
+          "m": 2
+        },
+        {
+          "q": "A semaphore is used for?",
+          "o": [
+            "Synchronization",
+            "Printing",
+            "Storage",
+            "Routing"
+          ],
+          "a": 0,
+          "m": 2
+        },
+        {
+          "q": "Which fit picks the smallest sufficient block?",
+          "o": [
+            "First Fit",
+            "Best Fit",
+            "Worst Fit",
+            "Next Fit"
+          ],
+          "a": 1,
+          "m": 2
+        }
+      ]
+    }
+  ],
+  "results": [],
+  "procs": [],
+  "attempts": [],
+  "nextId": 2
+}
